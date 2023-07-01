@@ -18,7 +18,26 @@ ul {
 
 }
 
-a {
+img {
+    background-color: gray;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+
+    color: white;
+    background-color: #3882F6;
+    
+    border: none;
+    border-radius: 8px;
+}
+
+.section.sign-up button {
+    border: 2px solid white;
+} 
+
+.hero-secondary-text, .header a {
     font-size: 18px;
     text-decoration: none;
     color: #e5e7eb;
@@ -29,11 +48,15 @@ a {
 }
 
 .header {
-    padding: 16px 70px;
-
+    
     gap: 16px;
     justify-content: space-between;
     align-items: center;
+}
+
+.header, .section.short-info {
+    padding: 16px 140px;
+    
 }
 
 .header, .section.short-info {
@@ -44,20 +67,33 @@ a {
     flex-direction: column;
 }
 
+/* Sections */
 .section {
     display: flex;
+}
+
+.section.short-info {
+    justify-content: space-between;
 }
 
 .container {
     display: flex;
 }
+
+.container.hero {
+    flex-direction: column;    
+}
+
+/* Class elements */
 .logo {
     font-size: 24px;
     color: #F9FAF8;
 }
 
+/* Hero */
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
 
-
-.section.short-info {
-    justify-content: space-between;
+    color: #f9f1f8;
 }
