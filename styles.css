@@ -83,6 +83,7 @@ button {
 
 .section.short-info {
     justify-content: space-between;
+    padding-bottom: 80px;
 }
 
 .container {
