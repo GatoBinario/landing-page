@@ -39,7 +39,25 @@ a {
 .header, .section.short-info {
     background-color: #1f2937;
 }
+
+.body {
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+}
+
+.container {
+    display: flex;
+}
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+
+
+.section.short-info {
+    justify-content: space-between;
 }
