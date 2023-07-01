@@ -43,19 +43,19 @@ button {
     color: #e5e7eb;
 }
 
-.header, .body, .footer {
-    display: flex;
-}
-
+/* Main website parts */
 .header {
-    
     gap: 16px;
     justify-content: space-between;
     align-items: center;
 }
 
+.header, .body, .footer {
+    display: flex;
+}
+
 .header, .section.short-info {
-    padding: 16px 140px;
+    padding: 16px 280px;
     
 }
 
