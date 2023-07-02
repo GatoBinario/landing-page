@@ -40,7 +40,7 @@ button {
 }
 
 .section.random-info h1 {
-    margin: 70px ;
+    margin: 70px;
 }
 
 .section.sign-up button {
@@ -105,6 +105,13 @@ button {
 
 }
 
+.section.quote {
+    flex-direction: column;
+    padding: 80px 400px;
+    background-color: #e5e7eb;
+    
+}
+
 /* Containers */
 .container {
     display: flex;
@@ -126,14 +133,23 @@ button {
 }
 
 
-
 /* Class elements */
 .logo {
     font-size: 24px;
     color: #F9FAF8;
 }
 
+.section.quote p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
 
+.section.quote .autor {
+    font-size: 24px;
+    font-weight: bold;
+}
 
 /* Hero */
 .hero-main-text {
