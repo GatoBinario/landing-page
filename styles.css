@@ -20,6 +20,7 @@ ul {
 
 img {
     background-color: rgb(209, 209, 209);
+    margin: 0px 40px;
 }
 
 .container.img-text img {
@@ -37,6 +38,8 @@ button {
     
     border: none;
     border-radius: 8px;
+
+    min-width: 30px;
 }
 
 .section.random-info h1 {
@@ -65,7 +68,7 @@ button {
 }
 
 .header, .section.short-info {
-    padding: 16px 280px;
+    padding: 16px 10vw;
     
 }
 
@@ -85,7 +88,6 @@ button {
     padding: 30px;
 }
 
-/*  */
 /* Sections */
 .section {
     display: flex;
@@ -97,19 +99,23 @@ button {
 }
 
 .section.random-info {
-    padding: 0px 80px;
+    padding: 0px 80px 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
 }
 
 .section.quote {
     flex-direction: column;
-    padding: 80px 400px;
+    padding: 80px 20vw;
     background-color: #e5e7eb;
-    
+}
+
+.section.sign-up {
+    margin: 90px 0px;
+    padding: 40px 140px;
+    color: white;
+    background-color: #3882F6;
 }
 
 /* Containers */
@@ -132,6 +138,12 @@ button {
     margin: 30px 50px;
 }
 
+.section.sign-up .container {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
 
 /* Class elements */
 .logo {
