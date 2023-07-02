@@ -112,10 +112,11 @@ button {
 }
 
 .section.sign-up {
-    margin: 90px 0px;
+    margin: 90px 60px;
     padding: 40px 140px;
     color: white;
     background-color: #3882F6;
+    justify-content: center;
 }
 
 /* Containers */
@@ -161,6 +162,10 @@ button {
 .section.quote .autor {
     font-size: 24px;
     font-weight: bold;
+}
+
+.section.sign-up p {
+    margin: 5px;
 }
 
 /* Hero */
